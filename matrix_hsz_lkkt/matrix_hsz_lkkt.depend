@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632986292 source:d:\biborka_xib\matrix_hsz_lkkt\main.cpp
+	<iostream>
+	<fstream>
+
