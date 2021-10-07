@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633585137 source:d:\biborka_xib\matrix_prim\main.cpp
+	<iostream>
+	<fstream>
+
