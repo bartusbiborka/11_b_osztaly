@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633592118 source:d:\biborka_xib\matrix_pallindrom\main.cpp
+	<iostream>
+	<fstream>
+
