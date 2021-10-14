@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634024557 source:d:\biborka_xib\matrixok_szorzata\main.cpp
+	<iostream>
+	<fstream>
+
