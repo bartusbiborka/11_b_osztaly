@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634188559 source:d:\biborka_xib\laborvizsga1\main.cpp
+	<iostream>
+	<fstream>
+
