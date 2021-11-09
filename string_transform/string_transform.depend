@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636442041 source:d:\biborka_xib\string_transform\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+
