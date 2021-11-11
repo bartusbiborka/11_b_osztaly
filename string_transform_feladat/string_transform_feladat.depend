@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636443993 source:d:\biborka_xib\string_transform_feladat\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+
