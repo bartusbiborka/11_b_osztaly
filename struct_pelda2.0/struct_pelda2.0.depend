@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1642490394 source:d:\biborka_xib\struct_pelda2.0\main.cpp
+	<iostream>
+	<fstream>
+
