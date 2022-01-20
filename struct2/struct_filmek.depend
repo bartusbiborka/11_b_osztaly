@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1642663941 source:d:\biborka_xib\struct2\main.cpp
+	<iostream>
+	<fstream>
+
