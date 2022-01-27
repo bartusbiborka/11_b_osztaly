@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1643261125 source:d:\biborka_xib\d_et_i_quicksort\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
