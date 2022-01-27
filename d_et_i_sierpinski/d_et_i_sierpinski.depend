@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1643268012 source:d:\biborka_xib\d_et_i_sierpinski\main.cpp
+	<graphics.h>
+	<math.h>
+	<stdlib.h>
+	<iostream>
+
