@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1644304553 source:d:\biborka_xib\vektor_torles\main.cpp
+	<iostream>
+	<vector>
+
