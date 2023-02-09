@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1675752306 source:d:\biborka\2022_eloerettsegi_s3f3\main.cpp
+	<iostream>
+	<fstream>
+
