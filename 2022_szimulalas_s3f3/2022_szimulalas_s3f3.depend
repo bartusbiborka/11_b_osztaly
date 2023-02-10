@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1676006536 source:d:\biborka\2022_szimulalas_s3f3\main.cpp
+	<iostream>
+	<fstream>
+
