@@ -8,7 +8,7 @@ int main()
     int n, k3=0, k5=0;
     cout << "n=";
     cin >> n;
-    for(int i=1; i<n; i++)
+    for(int i=1; i<n+1; i++)
     {
         int j=i;
         while(j%3==0)
