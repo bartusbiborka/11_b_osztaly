@@ -1,40 +1,53 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-int digit(int n)
+
+int tukor(int a)
 {
-    int first=n/10;
-    int last=n%10;
-    if(first>last)
+    int ujszam=0, szj;
+    if(a<10)
     {
-        return last*10+first;
+        return a*10;
     }
-    else
+    while (a>0)
     {
-        return first*10+last;
+        szj=a%10;
+        a/=10;
+        ujszam=ujszam*10 + szj;
     }
+    return ujszam;
 }
 int main()
 {
     ifstream in("numere.in");
-    int na, nb, x;
-    int szamlalo=0;
-    int stat[100]= {0};
-    in >> na;
-    in >> nb;
+    int na, nb, s=0;
+    int x;
+    int a[100]= {0};
+    in >> na >> nb;
     for(int i=0; i<na; i++)
     {
-        in >> x;
-        int nr=digit(x%100);
-        stat[nr]++;
+        in >> x ;
+        a[x%100]++;
     }
     for(int i=0; i<nb; i++)
     {
         in >> x;
-        int nr=digit(x%100);
-        szamlalo+=stat[nr];
+        x=x%100;
+        if(a[x]>0)
+        {
+            s+=a[x];
+        }
+        int y= tukor(x);
+        if(a[y]>0)
+        {
+            if(y%10 != y/10)
+            {
+                s+=a[y];
+            }
+        }
+
     }
-    cout << szamlalo << endl;
+    cout << s;
     in.close();
     return 0;
 }

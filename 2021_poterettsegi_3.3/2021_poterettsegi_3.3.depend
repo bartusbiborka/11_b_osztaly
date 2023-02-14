@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1676356772 source:d:\biborka\2021_poterettsegi_3.3\main.cpp
+	<iostream>
+	<fstream>
+
