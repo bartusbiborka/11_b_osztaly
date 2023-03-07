@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1678170041 source:d:\biborka\2021_t2_s3f3\main.cpp
+	<iostream>
+	<fstream>
+
